@@ -1,43 +1,44 @@
 # Ex-06-Feature-Transformation
-AIM
+
+# AIM
 
 To read the given data and perform Feature Transformation process and save the data to a file.
 
 
 
-Explanation
+# Explanation
 
 Feature Transformation is the process of transforming features into new features that better relate to the target.
 
 
 
-ALGORITHM
+# ALGORITHM
 
-STEP 1
+# STEP 1
 
 Read the given Data
 
 
 
-STEP 2
+# STEP 2
 
 Clean the Data Set using Data Cleaning Process
 
 
 
-STEP 3
+# STEP 3
 
 Apply Feature Transformation techniques to all the feature of the data set
 
 
 
-STEP 4
+# STEP 4
 
 Save the data to the file
 
 
 
-CODE:
+# CODE:
 ```
 import pandas as pd
 df = pd.read_csv("Data_to_Transform.csv")
@@ -84,7 +85,7 @@ plt.show()
 ```
 
 
-OUPUT:
+# OUPUT:
 
 ![Screenshot (342)](https://user-images.githubusercontent.com/119657657/233926739-4e00e32b-9bd9-48e3-959d-32d35f6106a6.png)
 
@@ -105,7 +106,7 @@ OUPUT:
 
 ![Screenshot (350)](https://user-images.githubusercontent.com/119657657/233927698-cec6c13d-3513-4ad0-9dd4-8ee840494643.png)
 
-RESULT :
+# RESULT :
 
 The Given Data is Read and performed with the Feature Transformation techniques and the data is stored.
 
